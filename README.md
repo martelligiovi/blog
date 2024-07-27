@@ -1,4 +1,4 @@
-# Demo Application
+# BLOG
 
  ![Build](https://img.shields.io/badge/build-passing-brightgreen.svg) ![Cobertura de Pruebas](https://img.shields.io/badge/tests-100%25-success.svg)
 
@@ -44,7 +44,7 @@ Instrucciones paso a paso sobre cómo instalar y configurar el proyecto.
 git clone https://github.com/martelligiovi/blog.git
 
 # Entrar al directorio del proyecto
-cd arquiWeb-master/demo
+cd blog
 
 # Instalar dependencias con Maven
 mvn install
@@ -62,8 +62,8 @@ La aplicación se ejecutará en http://localhost:8080.
 
 ## Características
 
-- Gestión de usuarios
-- Gestión de gatos
+- Gestión de publicaciones
+- Gestión de comentarios
 - API REST
 
 ## Documentación de la API
@@ -73,7 +73,6 @@ La documentación de la API se encuentra en el archivo `/API_DOCUMENTATION.md`.
 ## Contribución
 
 Si desea contribuir al proyecto, por favor haga un fork del repositorio y proponga un pull request.
-
 
 
 ## Autores
