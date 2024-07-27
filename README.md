@@ -10,7 +10,7 @@ Este proyecto es un blog  desarrollada con Spring Boot y Java, tiene 2 cruds, el
 ## Video Demostrativo
 
 (click)
-[![Ver Video](https://img.youtube.com/vi/ETyUpdiCrs/maxresdefault.jpg)](https://www.youtube.com/watch?v=ETyUpdiCrs)
+[![Ver Video](https://img.youtube.com/vi/sETyUpdiCrs/maxresdefault.jpg)](https://www.youtube.com/watch?v=sETyUpdiCrs)
 
 
 ## Tabla de Contenidos
