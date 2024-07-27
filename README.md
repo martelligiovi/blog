@@ -1,6 +1,3 @@
-Here is the README.md file for your project:
-
-```markdown
 # Demo Application
 ## Build Cobertura de Pruebas
 
@@ -44,7 +41,6 @@ cd arquiWeb-master/demo
 
 # Instalar dependencias con Maven
 mvn install
-```
 
 ## Uso
 Para iniciar la aplicación, ejecute el siguiente comando en la raíz del proyecto:
