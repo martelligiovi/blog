@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Blog</title>
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+
+  <header>
+    <h1>Mi Blog</h1>
+    <button id="newPostButton" class="myButton">Crear nueva publicación</button>
+
+  </header>
+
+  <form id="newPostForm" style="display: none;">
+    <label for="titulo">Título:</label><br>
+    <input type="text" id="titulo" name="titulo"><br>
+    <label for="descripcion">Descripción:</label><br>
+    <input type="text" id="descripcion" name="descripcion"><br>
+    <label for="contenido">Contenido:</label><br>
+    <textarea id="contenido" name="contenido" rows="4"></textarea><br>
+    <input type="submit" value="Submit">
+  </form>
+  <main id="content">
+    
+    <!-- Aquí se mostrarán las publicaciones -->
+  </main>
+  <div id="paginator">
+    <!-- Agrega más botones según sea necesario -->
+  </div>
+
+  
+
+  <script src="main.js"></script>
+</body>
+</html>

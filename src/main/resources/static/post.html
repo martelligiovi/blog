@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Publicación Completa</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="post-page">
+  <header>
+    <button id="inicioButton">⬅</button>
+    <h1></h1>
+  </header>
+  <main id="post-content">
+    <div class="post-container">
+      <!-- Contenedor para los posts -->
+      <h3>Publicación</h3>
+      <!-- Aquí se mostrarán los posts -->
+    </div>
+    <form id="updatePostForm" style="display: none;">
+      <label for="titulo">Título:</label><br>
+      <input type="text" id="titulo" name="titulo"><br>
+      <label for="descripcion">Descripción:</label><br>
+      <input type="text" id="descripcion" name="descripcion"><br>
+      <label for="contenido">Contenido:</label><br>
+      <textarea id="contenido" name="contenido" rows="4"></textarea><br>
+      <input type="submit" value="Submit">
+    </form>
+    <div class="comments-container">
+      <!-- Contenedor para los comentarios -->
+      <h3>Comentarios</h3>
+      <button id="createCommentButton" class="myButton">Crear un comentario</button>
+      <div id="commentFormContainer" style="display: none;">
+        <!-- Aquí se mostrará el formulario de comentarios -->
+        <form id="commentForm">
+          <label for="commentContent">Contenido del comentario:</label>
+          <textarea id="commentContent" rows="4" cols="50"></textarea>
+          <button type="submit">Enviar comentario</button>
+        </form>
+      </div>
+    </div>
+  </main>
+  <script src="post.js"></script>
+</body>
+</html>

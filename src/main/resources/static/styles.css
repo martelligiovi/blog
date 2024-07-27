@@ -1,0 +1,238 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 72;
+  }
+  .post-container {
+    grid-column: span 1; /* Ocupa una columna completa en la cuadrícula */
+  }
+  #commentContent {
+    height: 113px; /* Ajusta la altura según sea necesario */
+  }
+  /* Nuevo estilo para el contenedor de comentarios */
+  .comments-container {
+    grid-column: span 1; /* Ocupa una columna completa en la cuadrícula */
+    position: relative; /* Posición relativa para que los comentarios se posicionen respecto a este contenedor */
+  }
+  
+  /* Estilo para el formulario de comentarios */
+  #commentFormContainer {
+    position: absolute; /* Posición absoluta para que no afecte al flujo normal de los elementos */
+    top: 0; /* Ajusta la posición vertical según sea necesario */
+    left: 0; /* Ajusta la posición horizontal según sea necesario */
+  }
+  .myButton {
+    background-color: #4CAF50; /* Verde */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }  
+  
+  /* Estilo para el header */
+  header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #20212c;
+    min-height: 54px;
+}
+
+
+/* Estilo para el botón */
+#inicioButton {
+    margin-right: 10px;
+    padding: 0px 12px;
+    font-size: 50px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #20212c;
+    border: none;
+    border-radius: 4px;
+}
+  
+  #inicioButton:hover {
+    background-color: #2980b9; /* Cambia el color de fondo al pasar el mouse */
+    
+  }
+  h1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    margin: 0 ;
+}
+  
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Dos columnas con tamaño mínimo de 300px */
+    gap: 20px;
+  }
+  
+  .post {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .comments {
+  margin-top: 20px;
+}
+
+.comment {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+body {
+  position: relative;
+}
+
+#newPostForm {
+  position: absolute;
+  top: 76px;
+  left: center;
+  z-index: 1;
+  background: white;
+  padding: 20px;
+  width: 502px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#newPostForm label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#newPostForm input[type="text"] {
+  width: calc(100% - 22px); /* Resta el margen izquierdo y derecho del ancho total */
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+#newPostForm input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#newPostForm input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+#newPostForm textarea {
+  width: calc(100% - 22px); /* Resta el margen izquierdo y derecho del ancho total */
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+
+.comment {
+  position: relative;
+}
+
+#button-edit-eliminar {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.left-button-container {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.right-button-container {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.post {
+  position: relative;
+}
+
+#paginator {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#updatePostForm {
+  position: absolute;
+  top: 76px;
+  left: 50%;
+  z-index: 1;
+  background: white;
+  padding: 20px;
+  width: 502px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#updatePostForm label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#updatePostForm input[type="text"] {
+  width: calc(100% - 22px); /* Resta el margen izquierdo y derecho del ancho total */
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+#updatePostForm input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#updatePostForm input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+#updatePostForm textarea {
+  width: calc(100% - 22px); /* Resta el margen izquierdo y derecho del ancho total */
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
