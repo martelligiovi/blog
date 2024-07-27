@@ -7,6 +7,11 @@
 Este proyecto es un blog  desarrollada con Spring Boot y Java, tiene 2 cruds, el de publicacion y el de comentario de publicacion. utiliza tecnicas de paginado para las publicaciones, y fue construido tanto el front como el back por mi, queda la implementacion de los usuarios.
 
 
+## Video Demostrativo
+
+[![Ver Video](https://img.youtube.com/vi/ID_DEL_VIDEO/maxresdefault.jpg)](https://www.youtube.com/watch?v=PKg-Y6ZyYAw)
+
+
 ## Tabla de Contenidos
 - [Requisitos previos](#Requisitos)
 - [Instalación](#instalación)
