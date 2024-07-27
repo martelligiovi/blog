@@ -41,7 +41,7 @@ Instrucciones paso a paso sobre cómo instalar y configurar el proyecto.
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/martelligiovi/blog-master.git
+git clone https://github.com/martelligiovi/blog.git
 
 # Entrar al directorio del proyecto
 cd arquiWeb-master/demo
