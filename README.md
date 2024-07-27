@@ -4,7 +4,8 @@
 
 ## Descripción
 
-Este proyecto es una aplicación web desarrollada con Spring Boot y Java, fue creada para una materia de la facultad la cual tenia la consigna de crear una web app con 2 cruds con sus test y con su capa de vista. Proporciona una API REST para gestionar usuarios y gatos.
+Este proyecto es un blog  desarrollada con Spring Boot y Java, tiene 2 cruds, el de publicacion y el de comentario de publicacion. utiliza tecnicas de paginado para las publicaciones, y fue construido tanto el front como el back por mi, queda la implementacion de los usuarios.
+
 
 ## Tabla de Contenidos
 - [Requisitos previos](#Requisitos)
@@ -26,7 +27,7 @@ Este proyecto utiliza MySQL como base de datos. Asegúrate de tener una instanci
 
 Este proyecto utiliza las siguientes variables de entorno para la configuración de la base de datos:
 
-- `DB_HOST`: El host de la base de datos.
+- `DB_HOST`: La ip del host de la base de datos.
 - `DB_PORT`: El puerto de la base de datos.
 - `DB_NAME`: El nombre de la base de datos.
 - `DB_USER`: El nombre de usuario para la base de datos.
@@ -40,7 +41,7 @@ Instrucciones paso a paso sobre cómo instalar y configurar el proyecto.
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/martelligiovi/arquiWeb-master.git
+git clone https://github.com/martelligiovi/blog-master.git
 
 # Entrar al directorio del proyecto
 cd arquiWeb-master/demo
